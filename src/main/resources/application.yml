@@ -1,4 +1,4 @@
 rapidapi:
-  host: livescore6.p.rapidapi.com
+  host: odds.p.rapidapi.com
   apiKey: f56bb30deamsh424071257458666p178134jsne96d227e3e4d
-  url: https://livescore6.p.rapidapi.com
+  url: https://odds.p.rapidapi.com/v4/sports?all=true

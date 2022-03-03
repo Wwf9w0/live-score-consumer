@@ -15,4 +15,8 @@ public interface RapidApiClient {
     @GetMapping("leagues/v2/list?Category=soccer")
     ResponseEntity<String> getLeagueList(@RequestHeader(name = "x-rapidapi-host") String host,
                          @RequestHeader(name = "x-rapidapi-key") String key);
+
+    @GetMapping
+    ResponseEntity<String> getAllLiveSportsOdd(@RequestHeader(name = "x-rapidapi-host") String host,
+                                               @RequestHeader(name = "x-rapidapi-key") String apiKey);
 }
