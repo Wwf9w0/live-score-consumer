@@ -17,7 +17,7 @@ public class LiveSportsResponse {
     @JsonProperty(value = "description")
     private String description;
     @JsonProperty(value = "active")
-    private Boolean active;
+    private Boolean isActive;
     @JsonProperty(value = "has_outrights")
     private Boolean has_outrights;
 
