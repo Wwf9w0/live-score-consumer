@@ -8,6 +8,7 @@ import lombok.Data;
 @Builder
 public class LiveSportsResponse {
 
+    private String id;
     @JsonProperty(value = "key")
     private String key;
     @JsonProperty(value = "group")

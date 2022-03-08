@@ -1,21 +1,18 @@
 package live.score.consumer.model;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.Generated;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "live_sports")
+@Table(name = "live")
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
-@RequiredArgsConstructor
 public class LiveSportsEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long id;
 
     public String key;

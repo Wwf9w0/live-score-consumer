@@ -1,6 +1,9 @@
 spring:
+  h2:
+    console:
+      enabled: true
   datasource:
-    url: jdbc:h2:./devdbIssue
+    url: jdbc:h2:./devDbSports
     username: sa
     #generate-unique-name: false
   jpa:
