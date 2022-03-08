@@ -1,3 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:./devdbIssue
+    username: sa
+    #generate-unique-name: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 rapidapi:
   host: odds.p.rapidapi.com
   apiKey: f56bb30deamsh424071257458666p178134jsne96d227e3e4d
